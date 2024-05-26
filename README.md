@@ -28,9 +28,49 @@ The LED Register Display board is used for displaying the address and contents o
 | IC7-IC8    | 7475        | 7475J                    |
 | IC9        | 7442        | 7442J                    |
 | IC10       | 7402        | 7402J                    |
-| 8 POS CONN | 3.96mm      | Molex 09-52-3081         |
-| 41 POS CONN | 3.96mm      | MOLEX 09-48-1104 (x3) MOLEX 09-48-1114 (x1) |
+| P1         | 3.96mm 8-pin| Molex 09-52-3081         |
+| 41-PIN     | 3.96mm 41-pin | MOLEX 09-48-1104 (x3) MOLEX 09-48-1114 (x1) |
 
 ### PCB
 
 <img width="653" alt="Mark-8 LED Register Display Board" src="https://github.com/kalinchuk/mark_8_reproduction/assets/1035984/218e5b60-ef97-4a1a-9f07-0d153eddb60c">
+
+## Output Ports Board
+
+The output board is used for outputting data from the computer. It's a fairly simple board mostly consisting of ICs.
+
+### Jumpers
+
+There is one jumper in the middle of the board that needs to be installed. The additional jumpers will need to be installed according to the needs. For example, "A" can be jumpered with "1" to make CPU port 1 be output port A on the specific board. This allows for a maximum of 7 output ports with two output port boards.
+
+<img width="637" alt="Output Ports Jumpers" src="https://github.com/kalinchuk/mark_8_reproduction/assets/1035984/b1264516-f829-439a-aa60-10cdefa195fb">
+
+### Parts List
+
+| Part       | Spec        | Part #                   |
+| ---------- | ----------- | ------------------------ |
+| C1-C3      | 0.1 uF      | ST/CO .1uf 25V ceramic disc |
+| IC1-IC8    | 7475        | 7475J                    |
+| IC9-IC10   | 7404        | 7404J                    |
+| IC11       | 7402        | 7402J                    |
+| IC12       | 7442        | 7442J                    |
+| P1-P4      | 3.96mm 8-pin| Molex 09-52-3081         |
+| 41-PIN     | 3.96mm 41-pin | MOLEX 09-48-1104 (x3) MOLEX 09-48-1114 (x1) |
+
+### Test Circuit
+
+The test circuit was taken from the Mark-8 Construction Manual Experiments section.
+
+<img width="653" alt="Output Ports Board Test Circuit" src="https://github.com/kalinchuk/mark_8_reproduction/assets/1035984/a17896ef-9d23-4db5-abee-6aef494098da">
+
+The following code will output 10101010 to output port 1 (remember that output port 0 is on the LED register display).
+
+```
+LDAI    AA       ;006 252
+OUT1             ;123
+HLT              ;777
+```
+
+### PCB
+
+<img width="653" alt="Output Ports Board" src="https://github.com/kalinchuk/mark_8_reproduction/assets/1035984/ce581249-5bf3-4046-9af8-67bfa918b6a1">
