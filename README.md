@@ -14,7 +14,7 @@ Original Mark-8 PCBs are very rare. Therefore, if one has the desire to build a 
 - The Molex connectors that I used are the following:
   * 11-pin: https://www.newark.com/molex/09-48-1114/connector-rcpt-11pos-1row-3-96mm/dp/24M9934
   * 10-pin: https://www.newark.com/molex/09-48-1104/connector-rcpt-10pos-1row-3-96mm/dp/24M9933
-  * 8-pin: https://www.newark.com/molex/09-48-4088/connector-rcpt-8pos-1row-3-96mm/dp/24M9973
+  * 8-pin: https://www.lvelectronics.com/details/item?itemid=MOLEX%2009-52-3081#
 
 ## LED Register Display Board
 
