@@ -12,9 +12,13 @@ Original Mark-8 PCBs are very rare. Therefore, if one has the desire to build a 
 
 - Any 74XX IC can be substituted with a 54XX (military grade) or, potentially, with a 74LSXX (Low-power Schottky).
 - The Molex connectors that I used are the following:
-  * 11-pin: https://www.newark.com/molex/09-48-1114/connector-rcpt-11pos-1row-3-96mm/dp/24M9934
-  * 10-pin: https://www.newark.com/molex/09-48-1104/connector-rcpt-10pos-1row-3-96mm/dp/24M9933
+  * 11-pin: https://www.mouser.com/ProductDetail/Molex/09-48-1114?qs=cSZs%252ByTnFTTJe86rNzFWuA%3D%3D
+  * 10-pin: https://www.mouser.com/ProductDetail/Molex/09-48-1104?qs=DcEdecHHM4iSJPtLNet8eg%3D%3D
   * 8-pin: https://www.lvelectronics.com/details/item?itemid=MOLEX%2009-52-3081#
+  * 6-pin: https://www.mouser.com/ProductDetail/Molex/09-48-1064?qs=qDyi%252BDzW2VMso3J1Nf5Bpg%3D%3D
+  * 5-pin: https://www.mouser.com/ProductDetail/Molex/09-48-1054?qs=naUSJSqnqcLTt2tOKFjpcA%3D%3D
+  * 2-pin: https://www.mouser.com/ProductDetail/Molex/09-48-1024?qs=SeTnVz%252B%252BFGB4BpEsDXmhhw%3D%3D
+  * 1-pin: TBD
 
 ## LED Register Display Board
 
