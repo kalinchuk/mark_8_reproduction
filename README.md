@@ -82,3 +82,45 @@ HLT              ;777
 ### PCB
 
 <img width="653" alt="Output Ports Board" src="https://github.com/kalinchuk/mark_8_reproduction/assets/1035984/ce581249-5bf3-4046-9af8-67bfa918b6a1">
+
+## Memory Board
+
+The memory board accepts 32-1101 SRAM ICs but requires a minimum of 8 of them. Multiple memory boards can be installed into the Mark-8 computer and linked together.
+
+### Jumpers
+
+There is one jumper between IC33 and IC34. If this memory board is the first (and only) memory board to be installed, jumper the "0" position and the "A" positions. Additionally, select the correct memory block with the jumper positions above IC33. First memory board needs to jumper "0" to "A", "1" to "B", "2" to "C" and "3" to "D". If installing additional memory boards into the Mark-8, the jumpers would be different. Refer to page 6 of the Mark-8 construction manual for more details.
+
+<img width="637" alt="Memory Board Jumpers" src="https://github.com/kalinchuk/mark_8_reproduction/assets/1035984/eeff1f10-34c1-4f55-a44b-d0f9137fd48d">
+
+
+### Parts List
+
+| Part       | Spec        | Part #                   |
+| ---------- | ----------- | ------------------------ |
+| C1-C3      | 0.1 uF      | ST/CO .1uf 25V ceramic disc |
+| IC1-IC8    | 1101A or 1101A1        | 1101A                    |
+| IC9-IC32   | 1101A or 1101A1        | *Optional                    |
+| IC33       | 7442        | 7442J                    |
+| IC34       | 7400        | 5400J                    |
+| *R1-R11, R20-R21       | 1k ohm; 1/4W        | Any carbon composition resistor                    |
+| *R12-R19       | 10k ohm; 1/4W        | Any carbon composition resistor                    |
+| P1         | 3.96mm 8-pin| Molex 09-52-3081         |
+| P2         | 3.96mm 2-pin| Molex 09-48-1024         |
+| 41-PIN     | 3.96mm 41-pin | MOLEX 09-48-1104 (x3) MOLEX 09-48-1114 (x1) |
+
+* For the first memory board, install all resistors. If installing additional memory boards, some resistors are omitted. Refer to page 6 of the Mark-8 construction manual for more details.
+
+### Test Program
+
+The following code will output 10101010 to output port 0 (LED register display) to test the functionality of the memory board.
+
+```
+LDAI    AA       ;006 252
+OUT0             ;121
+HLT              ;777
+```
+
+### PCB
+
+<img width="653" alt="Memory Board" src="https://github.com/kalinchuk/mark_8_reproduction/assets/1035984/bf342a89-f3fd-4f2b-a83a-9f2a5137b88b">
