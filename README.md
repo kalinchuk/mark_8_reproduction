@@ -136,11 +136,11 @@ The address latch board latches addresses specified by the end-user which are th
 
 In addition to the bugs specified on the official bugs sheet, IC8-IC11 pin 4 needs to be pulled up to +5v with a 1k ohm pull-resistor (ref: https://www.ti.com/lit/ds/symlink/sn54ls193-sp.pdf).
 
-<img width="637" alt="Address Latch Board Pull-Up Resistors" src="https://github.com/kalinchuk/mark_8_reproduction/assets/1035984/db516021-4b47-4bd1-8d5d-e39164b04c47">
+<img width="750" alt="Address Latch Board Pull-Up Resistors" src="https://github.com/kalinchuk/mark_8_reproduction/assets/1035984/db516021-4b47-4bd1-8d5d-e39164b04c47">
 
 Early versions of the reproduction PCBs also have an additional bug - one of the vias is missing and needs to be drilled out and connected with a piece of wire.
 
-<img width="637" alt="Address Latch Board Bug" src="https://github.com/kalinchuk/mark_8_reproduction/assets/1035984/95625366-b7b4-4156-bc19-e4bf766bb266">
+<img height="400" alt="Address Latch Board Bug" src="https://github.com/kalinchuk/mark_8_reproduction/assets/1035984/95625366-b7b4-4156-bc19-e4bf766bb266">
 
 ### Jumpers
 
