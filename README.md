@@ -87,12 +87,15 @@ HLT              ;777
 
 The memory board accepts 32-1101 SRAM ICs but requires a minimum of 8 of them. Multiple memory boards can be installed into the Mark-8 computer and linked together.
 
+### Bugs
+
+Ensure that the 8 holes at the top of the board (going to the top connector) are not connected to GND with vias. Early versions of the reproduction PCBs will require those 8 holes to be drilled out.
+
 ### Jumpers
 
 There is one jumper between IC33 and IC34. If this memory board is the first (and only) memory board to be installed, jumper the "0" position and the "A" positions. Additionally, select the correct memory block with the jumper positions above IC33. First memory board needs to jumper "0" to "A", "1" to "B", "2" to "C" and "3" to "D". If installing additional memory boards into the Mark-8, the jumpers would be different. Refer to page 6 of the Mark-8 construction manual for more details.
 
 <img width="637" alt="Memory Board Jumpers" src="https://github.com/kalinchuk/mark_8_reproduction/assets/1035984/eeff1f10-34c1-4f55-a44b-d0f9137fd48d">
-
 
 ### Parts List
 
@@ -124,3 +127,46 @@ HLT              ;777
 ### PCB
 
 <img width="653" alt="Memory Board" src="https://github.com/kalinchuk/mark_8_reproduction/assets/1035984/bf342a89-f3fd-4f2b-a83a-9f2a5137b88b">
+
+## Address Latch Board
+
+The address latch board latches addresses specified by the end-user which are then relayed to the memory board.
+
+### Bugs
+
+In addition to the bugs specified on the official bugs sheet, IC8-IC11 pin 4 needs to be pulled up to +5v with a 1k ohm pull-resistor (ref: https://www.ti.com/lit/ds/symlink/sn54ls193-sp.pdf).
+
+<img width="637" alt="Address Latch Board Pull-Up Resistors" src="https://github.com/kalinchuk/mark_8_reproduction/assets/1035984/db516021-4b47-4bd1-8d5d-e39164b04c47">
+
+Early versions of the reproduction PCBs also have an additional bug - one of the vias is missing and needs to be drilled out and connected with a piece of wire.
+
+<img width="637" alt="Address Latch Board Bug" src="https://github.com/kalinchuk/mark_8_reproduction/assets/1035984/95625366-b7b4-4156-bc19-e4bf766bb266">
+
+### Jumpers
+
+There are two jumpers that need to be installed. The larger jumper is not annotated on the parts layout sheet but the holes do exist for it.
+
+<img width="637" alt="Address Latch Board Jumpers" src="https://github.com/kalinchuk/mark_8_reproduction/assets/1035984/a2617753-be4b-4d63-b4c7-da18277c3fba">
+
+### Parts List
+
+| Part       | Spec        | Part #                   |
+| ---------- | ----------- | ------------------------ |
+| C1-C6      | *0.1 uF     | ST/CO .1uf 25V ceramic disc |
+| C7         | 680 pF      | RMC 680pf 100V ceramic disc |
+| IC1-IC2    | 74123       | 74123J                   |
+| IC3-IC7    | 7400        | 5400J                    |
+| IC8-IC11   | 74193       | 74193J                   |
+| R1-R3      | 10k ohm; 1/4W        | Any carbon composition resistor                    |
+| R4         | 22k ohm; 1/4W        | Any carbon composition resistor                    |
+| R5-R16     | 1k ohm; 1/4W        | Any carbon composition resistor                    |
+| P1         | 3.96mm 8-pin| Molex 09-52-3081         |
+| P2         | 3.96mm 5-pin| Molex 09-48-1054         |
+| P2         | 3.96mm 6-pin| Molex 09-48-1064         |
+| 41-PIN     | 3.96mm 41-pin | MOLEX 09-48-1104 (x3) MOLEX 09-48-1114 (x1) |
+
+* The original parts list calls for 0.01 uF but that may be a mistake so I decided to use 0.1 uF instead.
+
+### PCB
+
+<img width="653" alt="Address Latch Board" src="https://github.com/kalinchuk/mark_8_reproduction/assets/1035984/d2a27531-92a0-42c6-8141-6134c0a9a4db">
