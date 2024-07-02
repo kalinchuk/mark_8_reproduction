@@ -170,3 +170,44 @@ There are two jumpers that need to be installed. The larger jumper is not annota
 ### PCB
 
 <img width="653" alt="Address Latch Board" src="https://github.com/kalinchuk/mark_8_reproduction/assets/1035984/d2a27531-92a0-42c6-8141-6134c0a9a4db">
+
+## Input Multiplex Board
+
+The input multiplex board controls all data flowing into the computer and data between memory and CPU.
+
+### Bugs
+
+In addition to the bugs specified on the official bugs sheet, older versions of this board had two fabrication issues.
+
+The jumper on the right side is missing a hole. This is because the other side of the board does not have a pad. This can be fixed by drilling out a hole using a [#60 (1mm) drill bit](https://amzn.to/3Vpg0OW) and [chuck](https://amzn.to/3VcrNii). Alternatively, a jumper wire can be soldered directly unto the trace.
+
+<img width="400" alt="Input Multiplex Board Bug 1" src="https://github.com/kalinchuk/mark_8_reproduction/assets/1035984/e66becf7-9a5b-4ff0-8597-1c15fe580064">
+
+IC1 has one of the pins connected to a passing trace. This is a frabrication issue and can be fixed by cutting the connection with a utility knife or small grinder (carefully).
+
+<img width="400" alt="Input Multiplex Board Bug 2" src="https://github.com/kalinchuk/mark_8_reproduction/assets/1035984/6bb94a66-c09a-4d28-9848-aba197156cb5">
+
+### Jumpers
+
+There are two official jumpers and one additional jumper which was noted on the bugs sheet.
+
+<img width="637" alt="Input Multiplex Board Jumpers" src="https://github.com/kalinchuk/mark_8_reproduction/assets/1035984/79083165-95ac-4f37-a8ce-39694c08ee2c">
+
+### Parts List
+
+| Part       | Spec        | Part #                   |
+| ---------- | ----------- | ------------------------ |
+| C1, C3-C4  | 0.1 uF      | ST/CO .1uf 25V ceramic disc |
+| C2         | 100 uF      | Sprague TE1211           |
+| IC1-IC2    | 8263 MUX    | N8263N - can be found on eBay                   |
+| IC3        | 7400        | 7400J                    |
+| IC4-IC5    | 8267 MUX    | N8267B - can be found on eBay. Do not use 8266                   |
+| IC6        | 7402        | 7402J                    |
+| IC7        | 7442        | 7442J                    |
+| R1         | 1k ohm; 1/4W        | Any carbon composition resistor                    |
+| P1-P4      | 3.96mm 8-pin| Molex 09-52-3081         |
+| 41-PIN     | 3.96mm 41-pin | MOLEX 09-48-1104 (x3) MOLEX 09-48-1114 (x1) |
+
+### PCB
+
+<img width="653" alt="Input Multiplex Board" src="https://github.com/kalinchuk/mark_8_reproduction/assets/1035984/a0e78d41-a42a-4b5e-853e-70f034f47d2b">
