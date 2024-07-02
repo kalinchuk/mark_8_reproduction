@@ -179,7 +179,7 @@ The input multiplex board controls all data flowing into the computer and data b
 
 In addition to the bugs specified on the official bugs sheet, older versions of this board had two fabrication issues.
 
-The jumper on the right side is missing a hole. This is because the other side of the board does not have a pad. This can be fixed by drilling out a hole using a [#60 (1mm) drill bit](https://amzn.to/3Vpg0OW) and [chuck](https://amzn.to/3VcrNii). Alternatively, a jumper wire can be soldered directly unto the trace.
+The jumper on the right side is missing a hole. This is because the other side of the board does not have a pad. This can be fixed by drilling out a hole using a [#60 (1mm) drill bit](https://amzn.to/3Vpg0OW) and [chuck](https://amzn.to/3VcrNii). Alternatively, a jumper wire can be soldered directly onto the trace.
 
 <img width="400" alt="Input Multiplex Board Bug 1" src="https://github.com/kalinchuk/mark_8_reproduction/assets/1035984/e66becf7-9a5b-4ff0-8597-1c15fe580064">
 
