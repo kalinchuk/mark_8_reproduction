@@ -227,7 +227,7 @@ The board has two official jumpers as annotated on the parts layout sheet.
 <img width="400" alt="CPU Board Jumpers" src="https://github.com/kalinchuk/mark_8_reproduction/assets/1035984/b1e379a0-a1d3-45f8-87de-cfc9e11c3b5d">
 
 
-As mentioned in the Bugs section, I went ahead and connected IC3 pin 4 to ground.
+As mentioned in the Bugs section, I went ahead and connected IC3 pin 4 to ground by soldering it to the passing trace (since that trace is connected to ground).
 
 <img width="400" alt="CPU Board Bug" src="https://github.com/kalinchuk/mark_8_reproduction/assets/1035984/0a64f483-0795-4540-8bb9-8c909d17dbe8">
 
@@ -238,7 +238,7 @@ As mentioned in the Bugs section, I went ahead and connected IC3 pin 4 to ground
 | C1         | 33 pF       | RMC 3000V 33pF 10% ceramic disc |
 | C2-C6      | 0.1 uF      | ST/CO .1uf 25V ceramic disc |
 | IC1, IC4, IC6-IC7, IC9, IC13, IC17, IC19    | 7400    | 5400J                   |
-| IC2-IC3, IC14        | 7476        | 74LS76                    |
+| IC2-IC3, IC14        | 7476        | 5476J                    |
 | IC5, IC11, IC16, IC20, IC21    | 7404    | 5404J                   |
 | IC8, IC12        | 7474        | 5474J                    |
 | IC22-IC23, IC25        | 74L04        | 74L04                    |
