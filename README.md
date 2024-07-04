@@ -211,3 +211,49 @@ There are two official jumpers and one additional jumper which was noted on the 
 ### PCB
 
 <img width="653" alt="Input Multiplex Board" src="https://github.com/kalinchuk/mark_8_reproduction/assets/1035984/a0e78d41-a42a-4b5e-853e-70f034f47d2b">
+
+## CPU Board
+
+The CPU board contains the 8008 microprocessor and is the "brain" of the computer.
+
+### Bugs
+
+The bugs sheet on page 46 states that IC3 pin 4 can be connected to ground. Some boards may have experienced issues with the pin not being grounded.
+
+### Jumpers
+
+The board has two official jumpers as annotated on the parts layout sheet.
+
+<img width="400" alt="CPU Board Jumpers" src="https://github.com/kalinchuk/mark_8_reproduction/assets/1035984/b1e379a0-a1d3-45f8-87de-cfc9e11c3b5d">
+
+
+As mentioned in the Bugs section, I went ahead and connected IC3 pin 4 to ground.
+
+<img width="400" alt="CPU Board Bug" src="https://github.com/kalinchuk/mark_8_reproduction/assets/1035984/0a64f483-0795-4540-8bb9-8c909d17dbe8">
+
+### Parts List
+
+| Part       | Spec        | Part #                   |
+| ---------- | ----------- | ------------------------ |
+| C1         | 33 pF       | RMC 3000V 33pF 10% ceramic disc |
+| C2-C6      | 0.1 uF      | ST/CO .1uf 25V ceramic disc |
+| IC1, IC4, IC6-IC7, IC9, IC13, IC17, IC19    | 7400    | 5400J                   |
+| IC2-IC3, IC14        | 7476        | 74LS76                    |
+| IC5, IC11, IC16, IC20, IC21    | 7404    | 5404J                   |
+| IC8, IC12        | 7474        | 5474J                    |
+| IC22-IC23, IC25        | 74L04        | 74L04                    |
+| IC10, IC18        | 7410        | 7410J                    |
+| IC15        | 7420        | 7420J                    |
+| IC24        | Intel 8008        | Intel C8008                    |
+| IC26        | 7442        | 7442J                    |
+| R1-R2      | 220 ohm; 1/4W        | Any carbon composition resistor                    |
+| R3         | 560 ohm; 1/4W        | Any carbon composition resistor                    |
+| R4         | 1.8k ohm; 1/4W        | Any carbon composition resistor                    |
+| R5-R8, R17 | 1k ohm; 1/4W        | Any carbon composition resistor                    |
+| R9-R16     | 22k ohm; 1/4W        | Any carbon composition resistor                    |
+| XTAL 1     | 4.0 MHz     | 4.0 MHz Crystal         |
+| 41-PIN     | 3.96mm 41-pin | MOLEX 09-48-1104 (x3) MOLEX 09-48-1114 (x1) |
+
+### PCB
+
+<img width="653" alt="CPU Board" src="https://github.com/kalinchuk/mark_8_reproduction/assets/1035984/a69488ca-e2bf-4552-a274-17e0e67c3658">
