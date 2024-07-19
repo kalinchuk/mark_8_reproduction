@@ -257,3 +257,19 @@ As mentioned in the Bugs section, I went ahead and connected IC3 pin 4 to ground
 ### PCB
 
 <img width="653" alt="CPU Board" src="https://github.com/kalinchuk/mark_8_reproduction/assets/1035984/a69488ca-e2bf-4552-a274-17e0e67c3658">
+
+## Backplane
+
+The backplane is used for connecting all the boards together. The original Mark-8 did not have a backplane so all boards had to be manually connected with wires.
+
+### Parts List
+
+| Part       | Spec        | Part #                   |
+| ---------- | ----------- | ------------------------ |
+| 41-PIN     | 3.96mm 41-pin      | 	
+11-position (TE Connectivity AMP Connectors 1-640383-1) & 10-position (TE Connectivity AMP Connectors 1-640383-0) |
+| Power Connector      | BARRIER STRIP 3CIRC      | Amphenol Anytek YK3030323000G |
+
+### PCB
+
+<img width="653" alt="Backplane" src="https://github.com/user-attachments/assets/5c064c07-5b47-4b32-a689-907ecce2c2ed">
