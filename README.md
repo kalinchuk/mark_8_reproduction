@@ -266,8 +266,7 @@ The backplane is used for connecting all the boards together. The original Mark-
 
 | Part       | Spec        | Part #                   |
 | ---------- | ----------- | ------------------------ |
-| 41-PIN     | 3.96mm 41-pin      | 	
-11-position (TE Connectivity AMP Connectors 1-640383-1) & 10-position (TE Connectivity AMP Connectors 1-640383-0) |
+| 41-PIN     | 3.96mm 41-pin      | 	11-position (TE Connectivity AMP Connectors 1-640383-1) & 10-position (TE Connectivity AMP Connectors 1-640383-0) |
 | Power Connector      | BARRIER STRIP 3CIRC      | Amphenol Anytek YK3030323000G |
 
 ### PCB
