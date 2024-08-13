@@ -301,7 +301,7 @@ The original Mark-8 minicomputer did not come with a power supply but did sugges
 
 ### Parts Layout
 
-Download the [Parts Layout.pdf](https://github.com/user-attachments/files/16593340/Parts.Layout.V1.pdf)
+Download the [Parts Layout PDF](https://github.com/user-attachments/files/16593340/Parts.Layout.V1.pdf)
 
 ### Notes
 
