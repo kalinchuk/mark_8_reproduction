@@ -272,3 +272,37 @@ The backplane is used for connecting all the boards together. The original Mark-
 ### PCB
 
 <img width="653" alt="Backplane" src="https://github.com/user-attachments/assets/5c064c07-5b47-4b32-a689-907ecce2c2ed">
+
+## Power Supply
+
+The original Mark-8 minicomputer did not come with a power supply but did suggest a specific power supply of +5 volts (3 amps) and -9 volts (1.5 amps). The following is a linear power supply consistent with how power supplies in the 1970s were made.
+
+### Parts List
+
+| Part       | Spec        | Part #                   |
+| ---------- | ----------- | ------------------------ |
+| D1-D4      |	1N5408      | Digikey 641-1316-1-ND    |
+| D5-D6      | 5mm	LED     | Any LED                  |
+| C1-C2	     | 4,700 uF 35V    | Digikey P15166-ND        |
+| C3-C4, C8-C9 | 	0.1 uF   | ST/CO .1uf 25V ceramic disc     |
+| C5, C10    |	10 uF       | Illinois Capacitor 106RAR035A   |
+| C6-C7      |	2,200 uF 35V    | Digikey 1189-2266-ND            |
+| J1-J2	     | 3.96mm 3-pos | Digikey YK3030323000G-ND       |
+| R1	        | 820 ohm     | Any carbon composition resistor |
+| R2	        | 270 ohm     | Any carbon composition resistor |
+| R3	        | 220 ohm     | Any carbon composition resistor |
+| R4	        | 1.5k ohm    | Any carbon composition resistor |
+| R5	        | 230 ohm     | Any carbon composition resistor |
+| R6	        | 330 ohm     | Any carbon composition resistor |
+| U1	        | LM338       | Digikey LM338T/NOPB-ND          |
+| U2	        | LM337       | Digikey LM337TNS/NOPB-ND        |
+| U1 Heat Sink	| Min 2.00°C/W  | Digikey 6400BG-ND               |
+| U2 Heat Sink	| Min 10.00°C/W | Digikey 6400BG-ND               |
+
+### Notes
+
+It's important to use a correctly sized heat sink for each voltage regulator otherwise they will burn out. The 5 volt regulator (U1) needs a heat sink with thermal resistance of 2.00°C/W or less. The -9 volt regulator (U2) needs a heat sink with thermal resistance of 10.00°C/W or less.
+
+### PCB
+
+<img width="653" alt="Power Supply" src="https://github.com/user-attachments/assets/fc1e7b20-86c7-46aa-bc3c-103a5bbaf525">
