@@ -299,6 +299,10 @@ The original Mark-8 minicomputer did not come with a power supply but did sugges
 | U1 Heat Sink	| Min 2.00°C/W  | Digikey 6400BG-ND               |
 | U2 Heat Sink	| Min 10.00°C/W | Digikey 6400BG-ND               |
 
+### Parts Layout
+
+Download the [Parts Layout.pdf](https://github.com/user-attachments/files/16593340/Parts.Layout.V1.pdf)
+
 ### Notes
 
 It's important to use a correctly sized heat sink for each voltage regulator otherwise they will burn out. The 5 volt regulator (U1) needs a heat sink with thermal resistance of 2.00°C/W or less. The -9 volt regulator (U2) needs a heat sink with thermal resistance of 10.00°C/W or less.
