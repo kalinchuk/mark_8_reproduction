@@ -277,6 +277,8 @@ The backplane is used for connecting all the boards together. The original Mark-
 
 The original Mark-8 minicomputer did not come with a power supply but did suggest a specific power supply of +5 volts (3 amps) and -9 volts (1.5 amps). The following is a linear power supply consistent with how power supplies in the 1970s were made.
 
+You can purchase an unstuffed PCB at [www.kalinchuk.com](https://www.kalinchuk.com/product-page/mark-8-minicomputer-power-supply-pcb)
+
 ### Parts List
 
 | Part       | Spec        | Part #                   |
