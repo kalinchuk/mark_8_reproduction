@@ -308,8 +308,8 @@ If you would like to fabricate the PCB yourself, the [V1 Gerber](https://github.
 | R6	        | 330 ohm     | Any carbon composition resistor |
 | U1	        | LM338       | Digikey LM338T/NOPB-ND          |
 | U2	        | LM337       | Digikey LM337TNS/NOPB-ND        |
-| U1 Heat Sink	| Min 2.00°C/W  | Digikey 6400BG-ND               |
-| U2 Heat Sink	| Min 10.00°C/W | Digikey 6400BG-ND               |
+| U1 Heat Sink	| 2.00°C/W or less  | Digikey 6400BG-ND               |
+| U2 Heat Sink	| 10.00°C/W or less | Digikey 6400BG-ND               |
 
 ### Parts Layout
 
