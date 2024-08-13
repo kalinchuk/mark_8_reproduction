@@ -279,6 +279,16 @@ The original Mark-8 minicomputer did not come with a power supply but did sugges
 
 You can purchase an unstuffed PCB at [www.kalinchuk.com](https://www.kalinchuk.com/product-page/mark-8-minicomputer-power-supply-pcb)
 
+### Schematic & Gerber
+
+You will find the V1 schematic and Gerber below.
+
+<img width="653" alt="Power Supply Schematic" src="https://github.com/user-attachments/assets/418524bd-8cc9-440d-b7e3-2eba8d59ce9c">
+
+You can also download a [high quality PDF](https://github.com/user-attachments/files/16600388/Schematic.pdf).
+
+If you would like to fabricate the PCB yourself, the [V1 Gerber](https://github.com/user-attachments/files/16600408/GerberV1.zip) is available for download.
+
 ### Parts List
 
 | Part       | Spec        | Part #                   |
