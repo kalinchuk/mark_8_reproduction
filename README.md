@@ -322,3 +322,78 @@ It's important to use a correctly sized heat sink for each voltage regulator oth
 ### PCB
 
 <img width="653" alt="Power Supply" src="https://github.com/user-attachments/assets/fc1e7b20-86c7-46aa-bc3c-103a5bbaf525">
+
+## Case
+
+The original Mark-8 did not come with a case nor did it specify a recommended case. The case we will be building is a close replica of the one shown on the front page of the July 1974 Radio Electronics magazine.
+
+<img width="653" alt="July 1974 Radio Electronics Case" src="https://github.com/user-attachments/assets/9734195e-fda3-4947-a3d6-508fe39edfbf">
+
+It's made out of 100% aluminum frame and panels. All panels are 1/16" thick. The aluminum frame members are 1" x 1". All this metal adds quite a bit of weight to the case but it's very solid.
+
+### Drawings
+
+Below, you will find the rough drawings that were drawn up before the CAD files were created.
+
+*Vertical Member*
+
+<img width="653" alt="Case Vertical Member" src="https://github.com/user-attachments/assets/027ea74c-7e87-48e8-9389-3c78f33cd15b">
+
+[Full PDF](https://github.com/user-attachments/files/16801457/VerticalPiece.pdf)
+
+*Horizontal Member*
+
+<img width="653" alt="Case Horizontal Member" src="https://github.com/user-attachments/assets/6aa0d2ae-4cc6-4c2f-b1eb-ef23b52fe141">
+
+There are two sizes of the horizontal member - 15-1/4" and 9"
+[Full PDF](https://github.com/user-attachments/files/16801461/HorizontalPiece.pdf)
+
+*Front Panel*
+
+<img width="653" alt="Case Front Panel" src="https://github.com/user-attachments/assets/3102eb1a-5d27-45da-a2aa-e315c43f5f88">
+
+[Full PDF](https://github.com/user-attachments/files/16801467/Scan2024-08-01_135943.pdf)
+
+*Rear Panel*
+
+<img width="653" alt="Case Rear Panel" src="https://github.com/user-attachments/assets/17a9b1f9-7046-4a0f-9761-0121535e5a2f">
+
+The first version of the rear panel has a fan cut-out and also ports for the power plug and switch.
+[Full PDF](https://github.com/user-attachments/files/16801468/Scan2024-08-04_144435.pdf)
+
+### CAD Files
+
+TODO
+
+### Fabrication Notes
+
+The vertical members are CNC machined aluminum. Four are required for the case. It contains four threads per piece so be sure to select "threads" when ordering from a CNC service (such as PCBWay).
+
+The horizontal members are also CNC machined aluminum and contain threads (select "threads" when ordering). There are two sizes of the horizontal members - one is 15-1/4" long and the other is 9" long. The case requires four of each size.
+
+The front panel is 1/16" thick aluminum sheet metal. I spray painted mine with aqua (satin) paint.
+
+The rear panel is 1/16" thick aluminum sheet metal. Version 1 contains an opening for a fan, power plug and switch. Version 2 is also contains openings for serial ports.
+
+When ordering, make sure to select "CNC" for vertical and horizontal pieces and "sheet metal" for all others.
+
+The remaining sides of the enclosure are standard 1/16" thick aluminum sheets cut to size. I use OnlineMetals.com for this.
+* Side pieces are 10.0"x8.75", 1/16" thick (2)
+* Top piece is 17.25"x11.0", 1/16" thick (1)
+* Bottom piece is also 17.25"x11.0" but 1/8" thick (1)
+
+To assemble the case, 48 #10-24 x 3/8" screws will be required.
+
+### Additional Notes
+
+The Mark-8 will fit quite well into the case but, due to the size of the frame members, the front panel lights will not line up exactly with the opening of the front panel. I think the front panel design will be modified in the future so that the opening is moved slightly left.
+
+<img width="653" alt="Case Front Panel Opening" src="https://github.com/user-attachments/assets/559f74b9-b434-4916-bbf8-920d83dd4208">
+
+The power supply fights perfectly to the left of the Mark-8 computer. Additional pieces (i.e. power transformer, barrier strip, etc.) will fit in the remaining space. I also added a fan to the left of the power supply to cool it down since it gets quite hot.
+
+<img width="653" alt="Case From Top" src="https://github.com/user-attachments/assets/6c3ebc5f-8360-46c7-b3bc-92562812d4dd">
+
+### Final
+
+<img width="653" alt="Case Final" src="https://github.com/user-attachments/assets/cc4a514d-23fa-4abd-8167-2021ac9c54b3">
