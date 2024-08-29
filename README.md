@@ -363,7 +363,15 @@ The first version of the rear panel has a fan cut-out and also ports for the pow
 
 ### CAD Files
 
-TODO
+[Vertical Member IGES](case/3D_Vertical_Piece.iges)
+
+[Horizontal Member 9" IGES](case/3D_Horizonal_Piece_9.iges)
+
+[Horizontal Member 15-1/4" IGES](case/3D_Horizonal_Piece_15-1_4.iges)
+
+[Front Panel STEP](case/Cutout_Sheet_Rev_1.step)
+
+[Rear Panel V1 STEP](case/2D_Sheetmetal_Fan_Grill.step)
 
 ### Fabrication Notes
 
