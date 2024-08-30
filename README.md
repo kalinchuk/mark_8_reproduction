@@ -411,6 +411,7 @@ The power supply fights perfectly to the left of the Mark-8 computer. Additional
 | Part       | Spec        | Part #                   |
 | ---------- | ----------- | ------------------------ |
 | Rubber Feet      |	Any size      | [Amazon](https://amzn.to/4cNOoIW)    |
+| Barrier Strip    | 110-220V 3A Min - 2/3 position | [Amazon](https://amzn.to/3T9KWRE) |
 | Power Transformer      | 3A Center Tap 12V-0-12V 24VAC     | [eBay](https://www.ebay.com/itm/124225528946)                 |
 | Power Plug | Standard size | [DigiKey](https://www.digikey.com/en/products/detail/schurter-inc/6162-0159/2646985) |
 
