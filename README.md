@@ -323,6 +323,10 @@ It's important to use a correctly sized heat sink for each voltage regulator oth
 
 <img width="653" alt="Power Supply" src="https://github.com/user-attachments/assets/fc1e7b20-86c7-46aa-bc3c-103a5bbaf525">
 
+## Front Panel
+
+Coming soon.
+
 ## Case
 
 The original Mark-8 did not come with a case nor did it specify a recommended case. The case we will be building is a close replica of the one shown on the front page of the July 1974 Radio Electronics magazine.
@@ -401,6 +405,14 @@ The Mark-8 will fit quite well into the case but, due to the size of the frame m
 The power supply fights perfectly to the left of the Mark-8 computer. Additional pieces (i.e. power transformer, barrier strip, etc.) will fit in the remaining space. I also added a fan to the left of the power supply to cool it down since it gets quite hot.
 
 <img width="653" alt="Case From Top" src="https://github.com/user-attachments/assets/6c3ebc5f-8360-46c7-b3bc-92562812d4dd">
+
+### Parts List
+
+| Part       | Spec        | Part #                   |
+| ---------- | ----------- | ------------------------ |
+| Rubber Feet      |	Any size      | [Amazon](https://amzn.to/4cNOoIW)    |
+| Power Transformer      | 3A Center Tap 12V-0-12V 24VAC     | [eBay](https://www.ebay.com/itm/124225528946)                 |
+| Power Plug | Standard size | [DigiKey](https://www.digikey.com/en/products/detail/schurter-inc/6162-0159/2646985) |
 
 ### Final
 
