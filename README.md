@@ -325,7 +325,30 @@ It's important to use a correctly sized heat sink for each voltage regulator oth
 
 ## Front Panel
 
-Coming soon.
+The front panel has 16 switches and an opening for the lights. You can find the parts used to build the front panel, below. You can also find the blank panel for sale at [www.kalinchuk.com](https://www.kalinchuk.com/product-page/mark-8-reproduction-front-panel).
+
+### Parts List
+
+| Part       | Spec        | Part #                   |
+| ---------- | ----------- | ------------------------ |
+| SPDT Switch | x10        | [M2012TJW02-GA-1A](https://www.powell.com/powell/en/USD/Products/Electromechanical/Switches/p/M2012TJW02-GA-1A/NKK-Switches/000000001000260706)  |
+| SPDT Momentary Switch | x6 | [M2015TJW01-GA-1A](https://www.digikey.com/en/products/detail/nkk-switches/M2015TJW01-GA-1A/1165800)       |
+| Plexiglass | ~5" x 6" | 1/8" thick [amazon](https://www.amazon.com/gp/product/B0CLNH69B8) |
+| 14 gauge wire | n/a | n/a |
+| 20 guage wire | n/a | n/a |
+| Shrink tubing | n/a | n/a |
+| Crimp pins | 18-24 guage pin | [0002062103](https://www.digikey.com/en/products/detail/molex/0002062103/26253) |
+| Aqua satin paint | n/a | n/a |
+
+### Image
+
+Inside the case:
+
+<img width="653" alt="Inside the case" src="https://github.com/user-attachments/assets/3659abe1-7448-48f7-8559-47ac6eb660a4">
+
+Front of the case:
+
+<img width="653" alt="Front of the case" src="https://github.com/user-attachments/assets/537a942e-856d-4fb4-b1ca-a1d0d4f1c3c8">
 
 ## Case
 
