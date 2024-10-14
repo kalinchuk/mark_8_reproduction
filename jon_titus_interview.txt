@@ -1,0 +1,334 @@
+Artem: Jon Titus, nice to meet you in person! Nice to meet you as well, Len. Do you mind if I record this conversation and share it with others?
+
+Jon: Not at all!
+
+Artem: I started a YouTube channel to showcase the vintage computers that I build. I’m fiscally conservative so I feel bad spending money, even on hobbies, so I thought that at least I can justify my spending on retro builds by showcasing it to others who might be interested in this type of content and at least provide some sort of value to the community.
+
+Len: I never felt bad about spending money on technology because it’s just interesting. The thing about Jon is that we’re both just fascinated in technology, no matter what it is. It’s funny because when we got together and started hanging out, the similarities are kind of scary because we both have a background in HAM radio, astronomy and, of course, Jon has a Ph.D. in Chemistry. When I first met Jon, he was still back east and I emailed him, he was at Test and Measurement. This was in 1999. This was actually when I was looking for a Mark-8 kit. I emailed Jon and I wanted to build a Mark-8, because I’ve never built one, I built my own. Since it wasn’t his design but my own, I used s100 boards in mine. I emailed Jon and asked, can I get a copy of the original plans and he said “sure”, that’s Jon for you, and he said “where can I send them?”.
+
+Artem: You have original construction plans?
+
+Len: Yeah, the packet that gets sent out.
+
+Artem: That’s something that I’ve been searching for a very long time and I have not been able to find them.
+
+Jon: The booklet? I have a copy of it. I don’t have the original typewritten script because I sent that to Radio Electronics. But I have a copy of the booklet if you want one of those. Yeah, Len called and said “hey, I’d like to get some information”. I said “Okay, well, what address? I’ll mail one to you.”. He said “I’m in Sandy Utah”. And I said, “I’m coming out for a wedding, the end of December and I’ll hand it over to you. Where do we get together?”.
+
+Len: I told him I’d take him to lunch if he brought it out to me so we’ve been going to the same place since he moved out here. We’ve been going there every year for our birthdays.
+
+Artem: Jon, you said you were from the east?
+
+Jon: Yes.
+
+Artem: Where did you live before Utah?
+
+Jon: I grew up in Long Island, New York state. But I went to school at [TODO]. Then I got a masters degree in [TODO].
+
+Artem: What was the masters degree in?
+
+Jon: Chemistry. And then I was in the army for 2 years, I was an officer out in New Mexico. Then I got married. My job at DuPont was no longer open, they closed the lab where I worked so I thought, hmm, what am I going to do. I saw an advertisement in one of the Chemistry magazines, I think it was a Doctoral program at Virginia Tech which used computers as part of their equipment. I went there for couple of years and I had my hands on PDP-8, in fact, I took one home at one time and was allowed to play with it at home so that’s how I cut my teeth on assembly language, machine language. I had to design an interface for the PDP-8 for direct memory access and eventually gave that up because the PDP-8 wasn’t fast enough so I used something like the Mark-8 that we had built some boards for to do direct memory access into that, dump a lot of data in there and then I could easily process it with the PDP-8.
+
+Len: What was the processor?
+
+Jon: 8080. But I could go directly into memory, I could go as fast as the counters could count memory addresses. 
+
+Len: That was after you designed the Mark-8?
+
+Jon: Yes, it was afterwards.
+
+Artem: You had a degree in Chemistry, what got you into computers?
+
+Jon: I’ve been interested in computers for a long time. I took a programming course in FORTRAN when I was in college in 1965 but I didn’t touch a computer again until 1971 when I went to Virginia Tech. There in Virginia Tech, the Chemistry department, you could actually get your hands on a computer, flip the switches on the front panel, see things happen. We had a teletype that connected to it. We had a telephone modem that we could connect into the timeshare. I taught myself assembly language with the PDP-8 and wrote some code for that.
+
+Jon: At the start of my career, I was thinking “how am I going to put two kids through college doing what I was doing?” I got kind of tired doing what I was doing. My career period is about 10 years. I interviewed at a couple of places and the one that I was the most interested in is being a technical editor at a magazine called EDN. EDN was one of the premier technical engineering publications until it was discontinued. I was at EDN magazine, became chief editor and in 1994 (another ten years) my boss said “hey, I’m going to be the publisher down at Test and Measure, would you like to come with me and be an editor” and I said “yes, I’m ready for something new.” He was publisher, I was chief editor. I was at Test and Measure. We would write about digital voltmeters and oscilloscopes and automatic test equipment. After doing that for a while, they got a new publisher and couldn’t stand the new guy so I said “Larry, if we’re going through the budget and you decide to lay somebody off, lay me off”. Because the other two guys had kids that were going to college and my kids have already gone to college so I said “lay me off”. So they gave me a nice severance package and I did freelance writing for about 10 years. And then I retired - kind of.
+
+Artem: Do you remember the newsletter that was created to answer questions about the Mark-8 minicomputer?
+
+Jon: The newsletter was called the Mark-8 newsletter but there was also another one called the Micro-8 newsletter. The guy who was publishing the Mark-8 newsletter said that a lot of the content was relevant to other computers so he started the Micro-8 newsletter. Len, was it the digital group newsletter.
+
+Artem: Are you familiar with The Computer Hobbyist newsletter?
+
+Jon: I don’t remember that newsletter. I’m getting old, I forget stuff.
+
+Artem: Jon, what inspired you to create the Mark-8?
+
+Jon: I wanted my own computer. I’ve been working with the PDP-8 computer, which, at that time, cost anywhere from $5,000 to $8,000.
+
+Artem: Was it the price that pushed you to create the Mark-8?
+
+Jon: I was a graduate student, I didn’t have much money. Intel came out with an 8008 and I got one of their manuals and I looked through the manual and there was a circuit for a demonstration board and I thought, you know, I know how I can modify that so that, instead of using EPROMs, which is what the development board used, I can use lights and switches and I can get the data in, jam the data in, and look at the data. I can also single-step it. So, I sat down, made up diagrams and thought “okay, maybe I can do this”.
+
+Artem: How long did it take you to create a working computer?
+
+Jon: You know, I don’t remember, but it was all point-to-point wire on veroboard. The board had copper on it and you could cut them into sections as needed. I also etched a little memory board for it that’s up at the computer museum in Boseman, MT. I built the front panel which had a piece of plexiglass, switches and a case. And it actually worked the first time. Unbelievable. I had gone through and checked the wiring and checked the wiring again and said “okay, let’s flip the switch and see what happens”. I was just amazed. The first thing I did was I went to location 0 and I jumped to location 100 and then I jumped back to 0. I set it into single-step mode and I could see it just jumping right back and forth. And I had my very own working computer.
+
+Len: Did you demonstrate it to your wife?
+
+Jon: Yeah, but she wasn’t interested.
+
+Artem: When I told my wife that I was going to meet Jon Titus and said “who?”
+
+Jon: Yeah, exactly. So that’s how the Mark-8 came to be. I still have the original drawings on graph paper with the circuit. So, after that worked, I thought “well, I’m going to call or get in touch with Radio Electronics and Popular Electronics”. The guy from Radio Electronics called and said “is this a real computer?”. I said “yeah, absolutely. It uses this Intel chip. You can look up the Intel chip and see what it’s all about”. He was in New York and I was in Blacksburg, VA and he said “I will get on a plane and come down - I have to see it”. So he came down. During that time, my wife was pregnant with our son so it must’ve been late in 73. And he said, “yes, we want this as a project. How fast can you write it up?”. I wrote it up and designed the circuit boards for it and put it together and it worked too. I didn’t have to do any rework. I built a nice box for it.
+
+Artem: Did you find any bugs with it eventually?
+
+Jon: No, I didn’t.
+
+Artem: I think there are a few bugs with the circuitry.
+
+Jon: There could be. I wouldn’t doubt it at all. But it was all typed down by hand and that was that and it was out there. My idea was to have everybody have this stuff, the information, let them do their own thing with it.
+
+Artem: Do you know what happened with the computer that you made for Radio Electronics?
+
+Jon: That one is in the Smithsonian Institute in Washington.
+
+Artem: Do you have any original ones still?
+
+Jon: That’s the only one I made. The prototype, I had to scavenge the prototype for the parts for the Mark-8 in the big box.
+
+Artem: The case that is shown on the front page of the Radio Electronics magazine, is that something you made?
+
+Jon: No, it was a box that I bought. I bought two boxes for something I built for the National Institute of Health and they only wanted one so I had this extra box and I thought “okay, that’s the box I’ll use”. I think it came from a company called York.
+
+Len: Are you sure? Because I think Bud makes them. Allied electronics used to have the exact box.
+
+Artem: What did the front look like?
+
+Jon: I had to cut it out, label it and drill it and all that kind of stuff.
+
+Len: If you can find an old Allied Electronics catalog, I think you can find the box listed in there.
+
+Jon: Well, I know that it was painted. I didn’t paint it.
+
+Len: Yeah, I just built an aluminum frame for mine. Mine is just an open box.
+
+Artem: You know, you inspired the design for my case. I looked at yours and said “hmm, maybe I can make something similar but close it up”.
+
+Len: I also built a loader for my computer - scelbal.
+
+Artem: How much memory do you need for that?
+
+Len: I’ve got 14k on mine. If you need help with the loader, I’ve got all the software. I was telling you that I had a memory board and I had done for mine. I removed the original 1k memory board and designed a different one with an EPROM. I take the lowest 256 bytes and populate it with a loader. I then use a RaspberryPI as the loader.
+
+Artem: Do you have schematics for the ROM board.
+
+Len: Oh yeah, I have circuit boards laid out.
+
+Artem: As I mentioned, I have a YouTube channel and there has been some interest regarding a ROM board for the Mark-8.
+
+Len: I can send the details for the ROM board to you. That one I designed in KiCad. I also designed an I/O board.
+
+Artem: Speaking of I/O, on the Mark-8, the input board has two input ports. There is no way to input data through the bus because of the way the input port is designed, is that correct?
+
+Jon: Right.
+
+Artem: Was that something that you were aware of and thought about? I’m wondering if there is a way to get around it.
+
+Jon: You know, I did not think about it. I thought that what someone would do is use one of the input ports as the bus and then multiplex it.
+
+Len: Your original design was based on the Intel design and they used those Signetics chips. I wish they used TTL.
+
+Artem: Jon, is there a reason why you didn’t build a backplane for the Mark-8 initially?
+
+Len: He was poor! He was a grad student.
+
+Jon: I couldn’t afford the connectors and to have a motherboard made that would just price it too high. People could do their own thing with it. I got a design that works. You take it and do what you want with it rather than saying that this is going to be the standard computer. That was never the idea.
+
+Len: But he did lay out the Molex connectors at the standard Molex connector spacing. When I built mine, I built a backplane. The dumb thing I did was I limited myself. You know the small bus on top? I should have been a little smarter with it because that is so tedious to wire together. I should’ve built one more input section. I also designed a video card for the Mark-8. I will share the details about it with you.
+
+Artem: I’m trying to document all of this stuff. If you don’t mind, would you mind sharing schematics with me?
+
+Len: No, of course not! If it disappears, it’s no good.
+
+Artem: Jon, did you write the Mark-8 construction manual all by yourself?
+
+Jon: Yes, I did. I would sneak into the Chemistry department office and use their selectric typewriter because the selectric typewriter, at the time, was self-corrective. If you typed the wrong letter and realized it, you could back up and you would hit the correct button and it would cover it up with white tape. It was great. But it wasn’t a word processor - you had to catch your mistakes. Almost like using whiteout.
+
+Len: Jon is a brutal editor. I’ve written two articles, co-wrote with Jon. Jon would just mark it all out with a pencil, correcting all mistakes. And I was thinking that I would never be a writer for a living but if I have a really good editor, I won’t look like an idiot.
+
+Artem: What were some memorable moments when you were designing or building the Mark-8.
+
+Jon: I think the most memorable moment was when I had the prototype built and I had it sitting on my desk. I put memory chips in and I could write and read from memory and see the results on the LEDs. I then looked for my 8008 chip and I couldn’t find it. I did eventually find it that night but it was in the pocket of my coat since I took it with me to a presentation I had done earlier. The next day, after I found it, I plugged it in and that night I did the same program again and it worked. I was just amazed. I think I got into bed at 3 o'clock that night. I woke up my wife and said “hey, it works! It works!” And she said “okay, back to sleep”.
+
+Jon: To me the point of creating the Mark-8 was, I didn’t really have a use for it, I just wanted to do it and show that I can do it and make it available for anyone else that could do it too. Now, the initial Intel board had monostables and four potentiometers on it for the clock and I said that’s nuts, no one will be able to use that. So I redesigned that and put a crystal oscillator in there instead.
+
+Jon: I had worked on an Intel 8008, which my professor in the Chemistry department had bought. He thought that maybe we could use it because we were teaching courses too and we had to haul all these PDP-8s around on campus and off campus and they were heavy. I carried them 3 flights of stairs and that just about killed me. I then had to go back down and pick up a teletype and carry that 3 flights of stairs.
+
+Len: Jons pretty tough, don’t let him fool you.
+
+Artem: America nowadays is not very healthy. Back then, they had to carry all that heavy computer equipment. They were all fit.
+
+Jon: That’s right! So, my experience with that was that it didn’t do anything. It had switches and lights on it but it didn’t do anything. If you had a PROM in there, it would do something. So the first thing I did on that Chemistry department computer was write a little monitor debugger. It had no serial port on it, you had to bit-bash it. That was pretty crude. Just part of the evolution - what you had to do to get to a certain point.
+
+Artem: I believe I mentioned this but I designed a serial board for the Mark-8 and it worked on my second try. Not as impressive as your Mark-8 design which worked on the first try. On my first iteration, I made a mistake. When I was dragging a wire connection in KiCad, it made contact with a passing line by mistake which screwed up the circuitry when the PCB was laid out. The only problem with the board was that it needed to be connected directly to the input ports because of the way the input ports board was designed.
+
+Jon: If I had to do it over again, I probably would have done the input section differently than with those Signetics chips. But at the time, those chips were available so I used them. The other thing was this - I knew that the Intel design worked so I figured if I start out with those, I know that that section would work.
+
+Len: The 8008 I designed, I made 8 input and 8 output ports. I used standard TTL multiplexers and decoders. I had an advantage at that time because of the delay. Technology was moving so fast that there were all kinds of suppliers of cheap parts. I wasn’t in the rush to get into a magazine either so I had more time to design.
+
+Jon: I wanted to get into Radio Electronics.  I wrote to Radio Electronics and I wrote to Popular Electronics and I never heard from Popular Electronics. I think they didn’t write back because they had the Altair project under way and they didn’t want to say “no”.
+
+Len: That was followed by months? Maybe six months?
+
+Jon: July 1974 till January 1975.
+
+Artem: You were not aware of the Altair until it was released in the magazine?
+
+Jon: I was not.
+
+Len: Things were so different back then. I grew up in Salt Lake and I felt totally isolated. I didn’t know anybody building, designing, using computers other than the University of Utah. It was pre-internet. You were pretty much isolated unless you were on a college campus and the college campus, even when I was in junior high school, they didn’t have any cutting edge stuff. 
+
+Jon: At Virginia Tech, I took a couple electrical engineering courses and they weren’t interested in the microprocessor at all.
+
+Artem: That’s how it is sometimes - schools are lagging behind. What is the one thing that you would change about the school system?
+
+Len: Do you have an hour?
+
+Artem: You told me that you volunteer at a local school?
+
+Jon: Yeah. I was telling Len before lunch that I work with and have worked with teachers who teach Python to the middle school kids. The way they got it set up to teach Python this year, I think is just wrong. They should start from the ground up by starting with variables and computer architecture. The school district here decided that the teachers who are teaching Python should get together and decide on the curriculums and one of the teachers said “if I was smart enough to decide the curriculum, I wouldn’t be here teaching, I would be off writing software for some company, making hundreds of thousands of dollars.” But they start these kids off with functions to draw lines and the kids don’t know what a function is. They have no idea. But I like working with the teachers. I’m in the school shop often, building interfaces and things like that.
+
+Jon: We work with Microbits and have designed components for it. We made all these resources available for anyone interested in working with it. It’s opensource. The kids like it since they can do real things and see how computers interact with the world.
+
+Artem: On the Radio Electronics front cover, there is a paper tape sitting on top of the computer.
+
+Jon: That was thrown in by the artist.
+
+Artem: I was going to say, how do you interface a tape reader with the Mark-8?
+
+Jon: Well, we never interfaced with a tape reader but it would be nice to be able to do that. I tried to make my own paper tape reader but it did not work.
+
+Len: I want a punch but they’re very expensive. And if you don’t have a punch, there is no reason to have a reader because you can’t really use it.
+
+Artem: Jon, did you ever build the TV Typewriter?
+
+Jon: Yes, I did and, in fact, I had the TV Typewriter hooked up to the Mark-8 prototype when Larry came down from Radio Electronics. I had several programs running.
+
+Len: Who’s TV Typewriter design did you use?
+
+Jon: Don Lancasters. I also had a D-to-A converter hooked up so that different keys would give you different waveforms.
+
+Artem: Do you still have the TVT that you built?
+
+Jon: I don’t. I don’t know what happened to it.
+
+Artem: Do you have anything from the 1970s era that you had built?
+
+Jon: I have given a storage unit worth of old computers to the smithsonian. He came out here and he opened up the back of his van and said “okay Jon, load it up”. I had a PDP-8 and I gave that away. I gave it all away.
+
+Artem: Do you have anything from that era at your place now?
+
+Jon: No.
+
+Artem: I’m guessing your wife wouldn’t appreciate it?
+
+Jon: No, it’s just that it would sit around and I’d die. Then people would say what is this junk and toss it. I’ve given away a lot of stuff to museums. I think the coolest thing that I’ve collected that I have, and it has nothing to do with computers, is a curta calculator. They used to advertise it in Scientific America all the time. The designer was in a prison came during WW2 and, while he was in this prison, he told the prison head that he was designing this hand-held calculator as a birthday present for Adolf Hitler and, if he finished it, he would give it to the camp head and the camp head would give it to Hitler. So they kept him alive hoping that he would come up with a design that works. When he was liberated, he started a company.
+
+Artem: Back to the TV Typewriter, how did you interface with the Mark-8 initially?
+
+Jon: I just used the input port. We had a keyboard hooked up as well.
+
+Artem: Was the keyboard connected to the TV Typewriter or the Mark-8?
+
+Jon: The keyboard was connected to the Mark-8 and the Mark-8 connected to the TV Typewriter and the D-to-A converter.
+
+Artem: So the TV Typewriter was, basically, for output?
+
+Jon: Yes. The TV Typewriter got its data from the computer and we would type in the information on the debugger so we could see it go into memory on the TV Typewriter.
+
+Len: You were using the 7-bit ASCII and the 8th bit as the strobe or did you use another port as the strobe?
+
+Jon: I don’t remember. It was 7-bit ASCII and 1 bit as the strobe, if I recall correctly. It was one of those beautiful cherry keyboards with the real switches.
+
+Len: Anytime I can buy a keyboard cheap, I pick them up. My first keyboard was a SWTPC keyboard that I built from a kit.
+
+Artem: Was it the KBD-1?
+
+Len: Yes.
+
+Artem: Jon. Do you by any chance still have the debugger software for the Mark-8 or know where I can find it?
+
+Jon: I just kind of wrote it on a piece of paper so it’s lost to history. I’ll look but I doubt that I have it.
+
+Artem: I’m in the process of building Don Lancasters TVT. I take the artwork and convert them into Gerber files and get them fabricated. Doing toner transfer is a lot of work and you make too many mistakes so I’m trying to create Gerbers for them and make them available for everyone to use. In essence, document it for future generations.
+
+Jon: Exactly, I wanted to make it available for people to experiment. I never meant it to be the world's greatest word processor.
+
+Len: What was your process for going from circuit boards to KiCad?
+
+Artem: I took the scanned documents and moved them into Photoshop and played around with them to align them correctly.
+
+Len: You don’t have a single-step process that converts it to a Gerber?
+
+Artem: No, it’s all manual. It’s a bit of work. Len, how did you make the Mark-8 boards?
+
+Len: I think the original ones I believe I made in KiCad.
+
+Artem: Did you convert the image into KiCad or did you manually make the traces.
+
+Len: Oh, for the Mark-8 boards, I actually bought them from someone. They were reproductions. The problem with his boards is that they were very skewed. They were not aligned well. My bus board zigzags. I bought those boards in 2000 or 1999.
+
+Artem: So you started building the Mark-8 in 2000?
+
+Len: Yes, sounds about right. I soldered the boards together and left them in a box for a while and finished them later. Have you seen my website? I make all kinds of projects which you can find on chronworks.com.
+
+Artem: Jon, what is your passion right now? Any passion projects?
+
+Jon: I’d say my passion right now is working with young kids to try to help them decide on what they’re going to do and also help them figure out how to get there because there are so many of them who come to middle school totally unprepared. I’m not saying they don’t know things, they just don’t know how to take notes. They don’t know how to study for exams. We’re going through that with the kids now.
+
+Artem: What is some advice that you would give to a young person who is interested in technology?
+
+Jon: I would say learn as much as you can. Look at and read and try to get more information in the field you’re interested in. Seek out people who can help you - whether it's retired people like me or teachers.
+
+Artem: You’re retired?
+
+Jon: Oh yeah, I’m 78.
+
+Artem: You don’t look like you’re 78.
+
+Jon: I know, I look like I’m 83.
+
+Len: You look great for 100.
+
+Jon: Somebody said the other day - it’s really strange being the same age as old people. Anyway, I think working with kids to get them on the right path, they will be successful. Teaching them some of the skills that they need to know that they might not otherwise get.
+
+Artem: You’re suggesting to put in effort to grow?
+
+Jon: Yes. And to never give up learning. And if you’re doing it professionally, you’ve got to keep up with your job.
+
+Len: How many books do you read a year?
+
+Jon: Maybe 13 or 14. I just finished one on Rudolph Diesel who invented the Diesel engine. I like history, military history, technology, and Digital Equipment Corporation.
+
+Len: Have you read The Soul of the Machine?
+
+Jon: Oh, yeah.
+
+Artem: What other books would you recommend?
+
+Jon: Biography of Grace Hopper. She was the first computer programmer and came up with the word “bug”. She worked on the ENIAC.
+
+Jon: I’m a visual learner. I’d rather see a diagram rather than a description. A flow chart rather than the code to begin with. Before you came in, I was telling Len that last summer the teacher that I work with built kiosks. We designed and built these game kiosks. I put together the electronics - joysticks, pushbuttons, etc. I also gave a signed copy of the Radio Electronics magazine to the school and an Intel 8008.
+
+Artem: Do you have any copies of the magazine at home?
+
+Jon: I might have three or four that are for family at some point.
+
+Artem: What would wish or hope your most enduring legacy would look like?
+
+Jon: I don’t know, I never thought about that.
+
+Len: You’re too busy making stuff to sit down and think about yourself.
+
+Jon: I guess that I helped kickstart people into using microprocessors and provided a way for them to get started.
+
+Artem: Would you say that the Mark-8 was the first microprocessor kit?
+
+Jon: It was the first hobbyist microcomputer.
+
+Artem: Do you mind signing my copy of the Radio Electronics?
+
+Jon: I don’t mind at all!
+Artem: Thank you so much for taking the time from your day to talk to me.
+
+Jon: Any time.
