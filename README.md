@@ -443,3 +443,14 @@ The power supply fights perfectly to the left of the Mark-8 computer. Additional
 ### Final
 
 <img width="653" alt="Case Final" src="https://github.com/user-attachments/assets/cc4a514d-23fa-4abd-8167-2021ac9c54b3">
+
+## Original Case
+
+The construction manual did not recommend a case for the Mark-8 minicomputer but the case that was used for the Mark-8 that was featured on the front cover of the Radio Electronics magazine was made by Bud Industries and had a part number of SB-2142. Those cases are still available for sale from various sources. The one I purchased was from https://www.testequity.com/product/10014392-SB-2142
+
+### CAD Files
+
+These CAD files are for the Bud Industries case. I have not tested them, personally, but the dimensions should be correct.
+
+[Front Panel](case/Bud%20Industries%20Case/FrontPanel.iges)
+[Rear Panel](case/Bud%20Industries%20Case/RearPanel.iges)
