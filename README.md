@@ -453,4 +453,5 @@ The construction manual did not recommend a case for the Mark-8 minicomputer but
 These CAD files are for the Bud Industries case. I have not tested them, personally, but the dimensions should be correct.
 
 [Front Panel](case/Bud%20Industries%20Case/FrontPanel.iges)
+
 [Rear Panel](case/Bud%20Industries%20Case/RearPanel.iges)
