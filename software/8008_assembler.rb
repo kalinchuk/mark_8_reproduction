@@ -10,14 +10,33 @@
 require 'optparse'
 
 OPCODES = {
+  # (H <- B2) Load byte two of the instruction into register H.
+  'LHI' => { code: 0o056, args: 1 },
+  # (L <- B2) Load byte two of the instruction into register L.
+  'LLI' => { code: 0o066, args: 1 },
+  #  (M <- A) Load the memory location addressed by
+  # the contents of registers H and L with the content
+  # of register A.
+  'LMA' => { code: 0o370 },
+  # (H <- H + 1) The content of register H is incremented
+  # by one. All of the condition flip-flops except carry
+  # are affected by the result.
+  'INH' => { code: 0o050 },
+  # (L <- L + 1) The content of register L is incremented
+  # by one. All of the condition flip-flops except carry
+  # are affected by the result.
+  'INL' => { code: 0o060 },
   'INP' => { '0' => { code: 0o101 } },
   'RAL' => { code: 0o022 },
   'RAR' => { code: 0o032 },
   'OUT' => { '0' => { code: 0o121 } },
+  # (P <- B3B2) Jump unconditionally to the instruction located
+  # in memory location addressed by byte two and byte three.
   'JMP' => { code: 0o104, args: 2 },
   'JFC' => { code: 0o100, args: 2 },
   'JTC' => { code: 0o140, args: 2 },
-  'NDI' => { code: 0o044, args: 1 }
+  'NDI' => { code: 0o044, args: 1 },
+  'NOP' => { code: 0o000 }
 }
 
 def format_output(opcode, args, format_str)
