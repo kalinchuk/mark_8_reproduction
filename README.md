@@ -10,7 +10,8 @@ Original Mark-8 PCBs are very rare. Therefore, if one has the desire to build a 
 
 <img width="653" alt="Mark-8 Reproduction PCBs" src="https://github.com/kalinchuk/mark_8_reproduction/assets/1035984/3108aea6-a843-41b5-bd85-5ec23e7af506">
 
-You can also fabricate the PCBs yourself by using the Gerber files under the (gerbers)[/gerbers] directory.
+
+You can also fabricate the PCBs yourself by using the Gerber files under the (gerbers)[gerbers] directory.
 
 ## Note on Parts
 
