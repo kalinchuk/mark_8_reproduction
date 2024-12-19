@@ -12,7 +12,7 @@ You can find the Gerber file under the [Gerber](Gerber) directory. Be sure to cr
 
 The following parts list contains a suggested part number for each part but any comparable part will do.
 
-The 2716 EPROM is used as a character generator and needs to be programmed with [charGen.hex](charGen.hex).
+The 2716 EPROM is used as a character generator and needs to be programmed with [charGen.hex](Software/charGen.hex).
 
 | Part       | Spec        | Quantity | Part #                   |
 | ---------- | ----------- | ---------| ------------------------ |
