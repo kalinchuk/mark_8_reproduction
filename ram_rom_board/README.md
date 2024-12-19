@@ -38,7 +38,7 @@ Additionally, the board can be configured for RAM or ROM (or both). If using as 
 | U11-U18    | AM2167 SRAM  | [Advanced Micro Devices, Inc. #AM2167-45PC](https://specialtypartsinc.com/products/1-pc-am2167-45pc-amd-standard-sram-16kx1-40ns-nmos-pdip20) |
 | U19        | 74LS30     | [Texas Instruments #SN74LS30N](https://www.digikey.com/en/products/detail/texas-instruments/SN74LS30N/377726) |
 | U21-U22    | 74LS175    | [Texas Instruments #SN74LS175N](https://www.digikey.com/en/products/detail/texas-instruments/SN74LS175N/277294) |
-<td colspan=3>The following are optional but recommended:</td>
+| <td colspan=3>The following are optional but recommended: |
 | 14 pin socket  | Quantity 4 | [CNC Tech #245-14-1-03](https://www.digikey.com/en/products/detail/cnc-tech/245-14-1-03/3441580) |
 | 16 pin socket  | Quantity 6 | [CNC Tech #245-16-1-03](https://www.digikey.com/en/products/detail/cnc-tech/245-16-1-03/3441581) |
 | 20 pin socket  | Quantity 10 | [CNC Tech #245-20-1-03](https://www.digikey.com/en/products/detail/cnc-tech/245-20-1-03/3441583) |
