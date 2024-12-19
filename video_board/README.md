@@ -80,17 +80,17 @@ The board contains a few bugs that need to be repaired before operation.
 
 1) Cut trace of U19 pin 1 and tie it to ground.
 
-Image
+<img width="400" src="https://github.com/user-attachments/assets/45491b7f-be58-4ba6-8a9d-6603f13241f5"/>
 
 2) Cut trace between U22 pin 9 and CA. Run jummper between U22 option hole #3 and CA.
-
-Image
+3) 
+<img width="400" src="https://github.com/user-attachments/assets/6affb2aa-393c-4dbf-ac06-4f861a9c3656"/>
 
 ## Sample program
 
 The following sample program will output characters on the screen at position 0,0.
 
-```
+```assembly
   ;
   ; tvt.asm
   ;
