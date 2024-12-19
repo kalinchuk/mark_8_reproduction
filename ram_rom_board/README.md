@@ -17,7 +17,7 @@ Additionally, the board can be configured for RAM or ROM (or both). If using as 
 | Part       | Spec        | Part #                   |
 | ---------- | ----------- | ------------------------ |
 | C1         | 47 uF, 25v, axial elec.  | [Cornell Dubilier Knowles #476TTA025M](https://www.digikey.com/en/products/detail/cornell-dubilier-knowles/476TTA025M/5412827) |
-| C2-C14     | 0.1 uF ceramic    | [KEMET C320C104K5R5TA](https://www.digikey.com/en/products/detail/kemet/C320C104K5R5TA/818040) |
+| C2-C14     | 0.1 uF ceramic    | [KEMET #C320C104K5R5TA](https://www.digikey.com/en/products/detail/kemet/C320C104K5R5TA/818040) |
 | C15        | 22 uF, 25v, axial elec.  | [Cornell Dubilier Knowles #226BPA025M](https://www.digikey.com/en/products/detail/cornell-dubilier-knowles/226BPA025M/5411600) |
 | D1-D4      | 1n914       | [onsemi #1N914](https://www.digikey.com/en/products/detail/onsemi/1N914/978749) |
 | D5-D6      | 5mm LED     | [Kingbright #WP7113ID](https://www.digikey.com/en/products/detail/kingbright/WP7113ID/1747663) |
@@ -38,7 +38,7 @@ Additionally, the board can be configured for RAM or ROM (or both). If using as 
 | U11-U18    | AM2167 SRAM  | [Advanced Micro Devices, Inc. #AM2167-45PC](https://specialtypartsinc.com/products/1-pc-am2167-45pc-amd-standard-sram-16kx1-40ns-nmos-pdip20) |
 | U19        | 74LS30     | [Texas Instruments #SN74LS30N](https://www.digikey.com/en/products/detail/texas-instruments/SN74LS30N/377726) |
 | U21-U22    | 74LS175    | [Texas Instruments #SN74LS175N](https://www.digikey.com/en/products/detail/texas-instruments/SN74LS175N/277294) |
-| The following are optional but recommended: |
+<td colspan=3>The following are optional but recommended:</td>
 | 14 pin socket  | Quantity 4 | [CNC Tech #245-14-1-03](https://www.digikey.com/en/products/detail/cnc-tech/245-14-1-03/3441580) |
 | 16 pin socket  | Quantity 6 | [CNC Tech #245-16-1-03](https://www.digikey.com/en/products/detail/cnc-tech/245-16-1-03/3441581) |
 | 20 pin socket  | Quantity 10 | [CNC Tech #245-20-1-03](https://www.digikey.com/en/products/detail/cnc-tech/245-20-1-03/3441583) |
