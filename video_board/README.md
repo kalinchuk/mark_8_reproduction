@@ -82,8 +82,8 @@ The board contains a few bugs that need to be repaired before operation.
 
 <img width="400" src="https://github.com/user-attachments/assets/45491b7f-be58-4ba6-8a9d-6603f13241f5"/>
 
-2) Cut trace between U22 pin 9 and CA. Run jummper between U22 option hole #3 and CA.
-3) 
+2) Cut trace between U22 pin 9 and CA. Run jumper between U22 option hole #3 and CA.
+
 <img width="400" src="https://github.com/user-attachments/assets/6affb2aa-393c-4dbf-ac06-4f861a9c3656"/>
 
 ## Sample program
