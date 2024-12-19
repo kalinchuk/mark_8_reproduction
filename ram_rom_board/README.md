@@ -16,8 +16,7 @@ Additionally, the board can be configured for RAM or ROM (or both). If using as 
 
 | Part       | Spec        | Part #                   |
 | ---------- | ----------- | ------------------------ |
-| C1         | 47 uF, 25v, axial elec.  | [Cornell Dubilier Knowles # 
-476TTA025M](https://www.digikey.com/en/products/detail/cornell-dubilier-knowles/476TTA025M/5412827) |
+| C1         | 47 uF, 25v, axial elec.  | [Cornell Dubilier Knowles #476TTA025M](https://www.digikey.com/en/products/detail/cornell-dubilier-knowles/476TTA025M/5412827) |
 | C2-C14     | 0.1 uF ceramic    | [KEMET C320C104K5R5TA](https://www.digikey.com/en/products/detail/kemet/C320C104K5R5TA/818040) |
 | C15        | 22 uF, 25v, axial elec.  | [Cornell Dubilier Knowles #226BPA025M](https://www.digikey.com/en/products/detail/cornell-dubilier-knowles/226BPA025M/5411600) |
 | D1-D4      | 1n914       | [onsemi #1N914](https://www.digikey.com/en/products/detail/onsemi/1N914/978749) |
