@@ -10,10 +10,19 @@
 require 'optparse'
 
 OPCODES = {
+  'ADI' => { code: 0o004, args: 1 },
+  'DCD' => { code: 0o031 },
+  'DCC' => { code: 0o021 },
+  'DCE' => { code: 0o041 },
   # (H <- B2) Load byte two of the instruction into register H.
   'LHI' => { code: 0o056, args: 1 },
   # (L <- B2) Load byte two of the instruction into register L.
   'LLI' => { code: 0o066, args: 1 },
+  'LAM' => { code: 0o307 },
+  'LAE' => { code: 0o304 },
+  'LAI' => { code: 0o006, args: 1 },
+  'LCI' => { code: 0o026, args: 1 },
+  'LEI' => { code: 0o046, args: 1 },
   #  (M <- A) Load the memory location addressed by
   # the contents of registers H and L with the content
   # of register A.
@@ -29,14 +38,21 @@ OPCODES = {
   'INP' => { '0' => { code: 0o101 } },
   'RAL' => { code: 0o022 },
   'RAR' => { code: 0o032 },
-  'OUT' => { '0' => { code: 0o121 } },
+  'RET' => { code: 0o007 },
+  'OUT' => { '0' => { code: 0o121 }, '1' => { code: 0o123 } },
   # (P <- B3B2) Jump unconditionally to the instruction located
   # in memory location addressed by byte two and byte three.
   'JMP' => { code: 0o104, args: 2 },
+  'CAL' => { code: 0o106, args: 2 },
+  'CPI' => { code: 0o074, args: 1 },
+  'CTZ' => { code: 0o152, args: 2 },
   'JFC' => { code: 0o100, args: 2 },
   'JTC' => { code: 0o140, args: 2 },
+  'JFS' => { code: 0o120, args: 2 },
+  'JFZ' => { code: 0o110, args: 2 },
+  'JTZ' => { code: 0o150, args: 2 },
   'NDI' => { code: 0o044, args: 1 },
-  'NOP' => { code: 0o000 }
+  'NOP' => { code: 0o311 }
 }
 
 def format_output(opcode, args, format_str)
