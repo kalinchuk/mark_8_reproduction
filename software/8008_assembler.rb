@@ -18,9 +18,13 @@ OPCODES = {
   'LHI' => { code: 0o056, args: 1 },
   # (L <- B2) Load byte two of the instruction into register L.
   'LLI' => { code: 0o066, args: 1 },
+  'LAB' => { code: 0o301 },
   'LAM' => { code: 0o307 },
   'LAE' => { code: 0o304 },
+  'LAH' => { code: 0o305 },
   'LAI' => { code: 0o006, args: 1 },
+  'LAL' => { code: 0o306 },
+  'LBA' => { code: 0o310 },
   'LCI' => { code: 0o026, args: 1 },
   'LEI' => { code: 0o046, args: 1 },
   #  (M <- A) Load the memory location addressed by

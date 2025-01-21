@@ -1,3 +1,6 @@
+; Author:    Artem Kalinchuk
+; Created:   01.20.2024
+;
 ; A simple keyboard echo program which
 ; echos anything received on the keyboard
 ; to the output register display (port 0)

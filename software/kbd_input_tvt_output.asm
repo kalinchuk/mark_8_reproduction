@@ -1,3 +1,6 @@
+; Author:    Artem Kalinchuk
+; Created:   01.20.2024
+;
 ; This software receives input from a keyboard
 ; (with last bit used a strobe) and outputs
 ; received characters to the TV Typewriter.

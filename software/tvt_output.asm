@@ -1,3 +1,6 @@
+; Author:    Artem Kalinchuk
+; Created:   01.20.2024
+;
 ; Outputs all characters to Don Lancaster's
 ; TV Typewriter. Since a lot of the characters
 ; are not supported by the TVT, you will see
