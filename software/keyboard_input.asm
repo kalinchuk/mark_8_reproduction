@@ -1,3 +1,6 @@
+; Author:    Artem Kalinchuk
+; Created:   01.20.2025
+;
 ; A simple keyboard input program that
 ; inputs data into the memory address
 ; specified by registers H and L 

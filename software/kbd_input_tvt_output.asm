@@ -1,5 +1,5 @@
 ; Author:    Artem Kalinchuk
-; Created:   01.20.2024
+; Created:   01.20.2025
 ;
 ; This software receives input from a keyboard
 ; (with last bit used a strobe) and outputs

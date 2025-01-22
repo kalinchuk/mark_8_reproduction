@@ -1,5 +1,5 @@
 ; Author:    Artem Kalinchuk
-; Created:   01.20.2024
+; Created:   01.20.2025
 ;
 ; Outputs all characters to Don Lancaster's
 ; TV Typewriter. Since a lot of the characters
