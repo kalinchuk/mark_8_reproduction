@@ -40,7 +40,7 @@ The 2716 EPROM is used as a character generator and needs to be programmed with 
 | R10        | 56 1/4w    | 1 | [Stackpole Electronics Inc #CF14JT56R0](https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CF14JT56R0/1741465) |
 | R11        | 68 1/4w    | 1 | [Stackpole Electronics Inc #CF14JT68R0](https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CF14JT68R0/1741487) |
 | R14        | 3.9k 1/4w  | 1 | [Stackpole Electronics Inc #CF14JT3K90](https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CF14JT3K90/1741386) |
-| U1-U2, U16, U41 | 74LS04     | 3 | [Texas Instruments #SN7404N](https://www.digikey.com/en/products/detail/texas-instruments/SN7404N/555980) |
+| U1-U2, U16, U41 | 74LS04     | 4 | [Texas Instruments #SN7404N](https://www.digikey.com/en/products/detail/texas-instruments/SN7404N/555980) |
 | U3         | 7490       | 1 | [onsemi #DM7490AN](https://www.digikey.com/en/products/detail/onsemi/DM7490AN/3144) |
 | U4, U10    | 74LS00     | 2 | [Texas Instruments #SN74LS00N](https://www.digikey.com/en/products/detail/texas-instruments/SN74LS00N/277272) |
 | U5         | MM5321 (sync gen)     | 1 | [National Semiconductor #MM5321N](https://www.ebay.com/itm/165651436117) |
