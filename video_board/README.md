@@ -74,11 +74,25 @@ The PCB should contain the silk screen with the parts placement but, if it doesn
 
 ## Configuration
 
-Coming soon
+### Character generator
+
+Program a 2716 EPROM (used as a character generator) with the [charGen.hex](Software/charGen.hex) hex file. A programmer for this (and other) EPROMs can be found on [Amazon](https://www.amazon.com/ACEIRMC-TL866-3G-Programmer-Support-Replacement/dp/B0BFWKS53B).
+
+### Video position
+
+To adjust the video position (vertical and horizontal) adjust the resistors R4 and R6. I found that having C6 at 0.2 uF (instead of 0.1 uF) gives me more vertical adjustment room.
+
+### Video quality
+
+C2 can be adjusted, if desired, to improve image quality.
+
+### Port configuration
+
+At the bottom right corner of the board, you can find the positions DI (Data In), CA (Column Address) and RA (Row Address). Those positions can be jumpered to positions 0-7 on the right side to change the port numbers for data input, column address and row address (existing, default traces may need to be removed). The default ports are Data In (5), Column Address (6), Row Address (7).
 
 ## Bugs
 
-The board contains a few bugs that need to be repaired before operation.
+Older versions of this board contained a few bugs that need to be repaired before operation. These bug were fixed in version B of the board.
 
 1) Cut trace of U19 pin 1 and tie it to ground.
 
