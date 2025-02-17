@@ -12,6 +12,7 @@ require 'optparse'
 OPCODES = {
   'ADI' => { code: 0o004, args: 1 },
   'DCD' => { code: 0o031 },
+  'DCB' => { code: 0o011 },
   'DCC' => { code: 0o021 },
   'DCE' => { code: 0o041 },
   # (H <- B2) Load byte two of the instruction into register H.
@@ -20,17 +21,25 @@ OPCODES = {
   'LLI' => { code: 0o066, args: 1 },
   'LAB' => { code: 0o301 },
   'LAM' => { code: 0o307 },
+  'LAC' => { code: 0o302 },
+  'LAD' => { code: 0o303 },
   'LAE' => { code: 0o304 },
   'LAH' => { code: 0o305 },
   'LAI' => { code: 0o006, args: 1 },
   'LAL' => { code: 0o306 },
   'LBA' => { code: 0o310 },
+  'LBI' => { code: 0o016 },
   'LCI' => { code: 0o026, args: 1 },
+  'LDA' => { code: 0o330 },
+  'LDI' => { code: 0o036, args: 1 },
   'LEI' => { code: 0o046, args: 1 },
   #  (M <- A) Load the memory location addressed by
   # the contents of registers H and L with the content
   # of register A.
   'LMA' => { code: 0o370 },
+  'INB' => { code: 0o010 },
+  'INC' => { code: 0o020 },
+  'IND' => { code: 0o030 },
   # (H <- H + 1) The content of register H is incremented
   # by one. All of the condition flip-flops except carry
   # are affected by the result.
@@ -43,7 +52,17 @@ OPCODES = {
   'RAL' => { code: 0o022 },
   'RAR' => { code: 0o032 },
   'RET' => { code: 0o007 },
-  'OUT' => { '0' => { code: 0o121 }, '1' => { code: 0o123 } },
+  'RTZ' => { code: 0o053 },
+  'OUT' => {
+    '0' => { code: 0o121 },
+    '1' => { code: 0o123 },
+    '2' => { code: 0o125 },
+    '3' => { code: 0o127 },
+    '4' => { code: 0o131 },
+    '5' => { code: 0o133 },
+    '6' => { code: 0o135 },
+    '7' => { code: 0o137 }
+  },
   # (P <- B3B2) Jump unconditionally to the instruction located
   # in memory location addressed by byte two and byte three.
   'JMP' => { code: 0o104, args: 2 },
@@ -56,7 +75,8 @@ OPCODES = {
   'JFZ' => { code: 0o110, args: 2 },
   'JTZ' => { code: 0o150, args: 2 },
   'NDI' => { code: 0o044, args: 1 },
-  'NOP' => { code: 0o311 }
+  'NOP' => { code: 0o311 },
+  'HLT' => { code: 0o377 },
 }
 
 def format_output(opcode, args, format_str)

@@ -22,7 +22,7 @@ The 2716 EPROM is used as a character generator and needs to be programmed with 
 | C4         | 4.7 uF, 25v, axial elec.  | 1 | [Vishay Beyschlag #MAL202128478E3](https://www.digikey.com/en/products/detail/vishay-beyschlag-draloric-bc-components/MAL202128478E3/5632105) |
 | C5         | 1000 pF ceramic  | 1 | [Vishay Beyschlag #D102K25Y5PL63L6R](https://www.digikey.com/en/products/detail/vishay-beyschlag-draloric-bc-components/D102K25Y5PL63L6R/769395) |
 | C6, C101-C106, C201-C206, C301-C306, C401-C406         | 0.1 uF ceramic   | 25 | [KEMET #C320C104K5R5TA](https://www.digikey.com/en/products/detail/kemet/C320C104K5R5TA/818040) |
-| C7         | 100 uF, 25v, axial elec.  | 1 | [Vishay Beyschlag #MAL202137101E3](https://www.digikey.com/en/products/detail/vishay-beyschlag-draloric-bc-components/MAL202137101E3/262952) |
+| C7         | 100 pF ceramic | 1 | [Vishay Beyschlag #MAL202137101E3](https://www.digikey.com/en/products/detail/vishay-beyschlag-draloric-bc-components/MAL202137101E3/262952) |
 | C8         | 0.05 uF ceramic  | 1 | [Vishay Beyschlag/Draloric/BC Components #S503Z69Z5UL63L0R](https://www.digikey.com/en/products/detail/vishay-beyschlag-draloric-bc-components/S503Z69Z5UL63L0R/2832563) |
 | C9         | 10 uF, 25v, radial elec.  | 1 | [Vishay Beyschlag #MAL214258109E3](https://www.digikey.com/en/products/detail/vishay-beyschlag-draloric-bc-components/MAL214258109E3/2691024) |
 | J1         | 41-pos Molex (3.96mm) | 3x10-pos, 1x11-pos | [Molex #09-48-1104](https://www.digikey.com/en/products/detail/molex/0009481104/863329) & [Molex #09-48-1114](https://www.digikey.com/en/products/detail/molex/0009481114/863330) |
@@ -35,17 +35,19 @@ The 2716 EPROM is used as a character generator and needs to be programmed with 
 | R4, R6     | 50k pot    | 2 | [Bourns Inc. #PV36W503C01B00](https://www.digikey.com/en/products/detail/bourns-inc/PV36W503C01B00/666516) |
 | R5, R15    | 22k 1/4w   | 2 | [Stackpole Electronics Inc #CF14JT22K0](https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CF14JT22K0/1741350) |
 | R7, R12-R13| 5.1k 1/4w  | 3 | [Stackpole Electronics Inc #CF14JT5K10](https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CF14JT5K10/1741447) |
-| R8, R101-R102 | 1k 1/4w | 3 | [Stackpole Electronics Inc #CF14JT1K00](https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CF14JT1K00/1741314) |
+| R8, R101(4) | 1k 1/4w | 5 | [Stackpole Electronics Inc #CF14JT1K00](https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CF14JT1K00/1741314) |
 | R9         | 2.2k 1/4w  | 1 | [Stackpole Electronics Inc #CF14JT2K20](https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CF14JT2K20/1741321) |
 | R10        | 56 1/4w    | 1 | [Stackpole Electronics Inc #CF14JT56R0](https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CF14JT56R0/1741465) |
 | R11        | 68 1/4w    | 1 | [Stackpole Electronics Inc #CF14JT68R0](https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CF14JT68R0/1741487) |
 | R14        | 3.9k 1/4w  | 1 | [Stackpole Electronics Inc #CF14JT3K90](https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CF14JT3K90/1741386) |
-| U1-U2, U16, U41 | 74LS04     | 4 | [Texas Instruments #SN7404N](https://www.digikey.com/en/products/detail/texas-instruments/SN7404N/555980) |
+| U1, U16, U41 | 7404     | 4 | [Texas Instruments #SN7404N](https://www.digikey.com/en/products/detail/texas-instruments/SN7404N/555980) |
+| U2 | 74LS76 | 1 | [Texas Instruments #SN74LS112AN](https://www.digikey.com/en/products/detail/rochester-electronics-llc/SN74LS112AN/13528151) |
 | U3         | 7490       | 1 | [onsemi #DM7490AN](https://www.digikey.com/en/products/detail/onsemi/DM7490AN/3144) |
-| U4, U10    | 74LS00     | 2 | [Texas Instruments #SN74LS00N](https://www.digikey.com/en/products/detail/texas-instruments/SN74LS00N/277272) |
+| U4    | 7400     | 1 | [Texas Instruments #SN7400N](https://www.digikey.com/en/products/detail/texas-instruments/SN7400N/555975) |
 | U5         | MM5321 (sync gen)     | 1 | [National Semiconductor #MM5321N](https://www.ebay.com/itm/165651436117) |
-| U6, U39    | 74LS10     | 2 | [onsemi #SN74LS10N](https://www.digikey.com/en/products/detail/rochester-electronics-llc/SN74LS10N/11520851) |
-| U7-U9, U11-U13, U18-U20 | 74LS193 | 9 | [Texas Instruments #SN74LS193N](https://www.digikey.com/en/products/detail/texas-instruments/SN74LS193N/277295) |
+| U6, U39    | 7410     | 2 | [onsemi #SN7410N](https://www.digikey.com/en/products/detail/texas-instruments/SN7410N/11519655) |
+| U7-U9, U11-U12, U18-U20 | 74LS193 | 9 | [Texas Instruments #SN74LS193N](https://www.digikey.com/en/products/detail/texas-instruments/SN74LS193N/277295) |
+| U10    | 74LS00     | 1 | [Texas Instruments #SN74LS00N](https://www.digikey.com/en/products/detail/texas-instruments/SN74LS00N/277272) |
 | U14        | 2716 EPROM (char gen) | 1 | [Major Brands #D2716](https://www.jameco.com/z/D2716-Major-Brands-IC-2716-EPROM-16K-Bit-450ns-NMOS-UV-Erasable-and-Electrically-Programmable-EPROM_40002.html) |
 | U15        | 74165      | 1 | [Texas Instruments #SN74LS165AN](https://www.digikey.com/en/products/detail/texas-instruments/SN74LS165AN/563051) |
 | U17        | 74LS30     | 1 | [Texas Instruments #SN74LS30N](https://www.digikey.com/en/products/detail/texas-instruments/SN74LS30N/377726) |
@@ -54,7 +56,7 @@ The 2716 EPROM is used as a character generator and needs to be programmed with 
 | U23        | 74LS244    | 1 | [Texas Instruments #SN74LS244N](https://www.digikey.com/en/products/detail/texas-instruments/SN74LS244N/277299) |
 | U24-U26    | 74LS157    | 3 | [Texas Instruments #SN74LS157N](https://www.digikey.com/en/products/detail/texas-instruments/SN74LS157N/277291) |
 | U27-U33    | 2102 SRAM  | 7 | [National Semiconductor #MM2102AN-4](https://www.jameco.com/z/MM2102AN-4-National-Semiconductor-IC-MM2102AN-4-NMOS-SRAM-1024-Bit-1024x1-250ns-DIP-16_2287991.html) |
-| U34        | 74LS123    | 1 | [Texas Instruments #SN74LS123N](https://www.digikey.com/en/products/detail/texas-instruments/SN74LS123N/277282) |
+| U34, U13        | 74LS123    | 1 | [Texas Instruments #SN74LS123N](https://www.digikey.com/en/products/detail/texas-instruments/SN74LS123N/277282) |
 | U35-U37    | 74LS85     | 3 | [Texas Instruments #SN74LS85N](https://www.digikey.com/en/products/detail/texas-instruments/SN74LS85N/563035) |
 | U38        | 74LS74     | 1 | [Texas Instruments #SN74LS74AN](https://www.digikey.com/en/products/detail/texas-instruments/SN74LS74AN/277314) |
 | U40        | 555 timer  | 1 | [Texas Instruments #LM555CN/NOPB](https://www.digikey.com/en/products/detail/texas-instruments/LM555CN-NOPB/6575) |
