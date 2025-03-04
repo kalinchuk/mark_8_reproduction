@@ -4,6 +4,12 @@ This video board for the Mark-8 minicomputer was designed by Len Bayles who, kin
 
 This board will work with any reproduction Mark-8 minicomputer that uses a backplane with a 3.96mm pitch.
 
+## PCB
+
+PCBs are available for sale at [www.kalinchuk.com](https://www.kalinchuk.com/product-page/mark-8-minicomputer-video-board)
+
+<img src="https://github.com/user-attachments/assets/47b514b7-9213-44f7-9a5e-b0d523c39561" alt="Mark-8 Video Board PCB" width="800"/>
+
 ## Gerber
 
 You can find the Gerber file under the [Gerber](Gerber) directory. Be sure to credit Len Bayles if sharing publicly.
