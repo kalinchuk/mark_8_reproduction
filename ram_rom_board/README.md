@@ -46,8 +46,18 @@ Additionally, the board can be configured for RAM or ROM (or both). If using as 
 
 ## Parts Placement & Schematics
 
-The PCB may not contain a silk screen with all the parts outlined. If that's the case for you, refer to the Parts Placement PDF. Additionally, the schematics are provided under the "Schematics" directory.
+The PCB may not contain a silk screen with all the parts outlined. If that's the case for you, refer to the [Parts Placement PDF](PartsPlacement.pdf). Additionally, the schematics are provided under the "Schematics" directory.
 
 ## Configuration
 
-Coming soon
+The ROM board is configured using the two DIP switches at the top of the board, one for each PROM. The left DIP switch configures the left PROM and the right DIP switch configures the right PROM. If you are not using any of the PROMs, disable them by "turning on" the right two switches (DIS ROM MAN, DIS ROM IO). Conversely, if you want to enable a PROM, switch the "DIS ROM MAN" switch to the "off" position. The switches are basically backwards (on is off and off is on).
+
+<img width="211" height="198" alt="Switches" src="https://github.com/user-attachments/assets/66cc2c15-4c03-4bf4-933f-0bb9ea3a0533" />
+
+The remaining switches are used to configure the base and block. A variety of different configurations can be used, depending on the needs. For example, to enable the ROM at 8K memory space, "turn on" switches 4-8.
+
+## Programming PROMs
+
+The board supports 2716 EPROMs. These EPROMs can be programmed in a variety of ways but I've been using the [XGecu T48](https://www.amazon.com/dp/B0B592HZ1K) programmer and it has worked very well for me.
+
+You will need a binary file to program the EPROM. Either use one of the binary files located under the "software" directory or create one yourself. To assemble an ASM file, I used the [Retro Assembler](https://enginedesigns.net/retroassembler) which works on Windows and Mac.
