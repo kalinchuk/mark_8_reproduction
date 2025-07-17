@@ -46,7 +46,7 @@ Additionally, the board can be configured for RAM or ROM (or both). If using as 
 
 ## Parts Placement & Schematics
 
-The PCB may not contain a silk screen with all the parts outlined. If that's the case for you, refer to the Parts Placement PDF. Additionally, the schematics are provided under the "Schematics" directory.
+The PCB may not contain a silk screen with all the parts outlined. If that's the case for you, refer to the [Parts Placement PDF](PartsPlacement.pdf). Additionally, the schematics are provided under the "Schematics" directory.
 
 ## Configuration
 
