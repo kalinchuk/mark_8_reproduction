@@ -4,6 +4,10 @@ This RAM/ROM board for the Mark-8 minicomputer was designed by Len Bayles who, k
 
 This board will work with any reproduction Mark-8 minicomputer that uses a backplane with a 3.96mm pitch.
 
+## PCB
+
+PCBs are available for sale at [kalinchuk.com](https://www.kalinchuk.com/product-page/mark-8-minicomputer-rom-board)
+
 ## Gerber
 
 You can find the Gerber file under the "Gerber" directory. Be sure to credit Len Bayles if sharing publicly.
