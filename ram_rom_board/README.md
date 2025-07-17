@@ -8,6 +8,8 @@ This board will work with any reproduction Mark-8 minicomputer that uses a backp
 
 PCBs are available for sale at [kalinchuk.com](https://www.kalinchuk.com/product-page/mark-8-minicomputer-rom-board)
 
+<img src="https://github.com/user-attachments/assets/4068f4f0-fee6-4b0e-9afe-f31252db81d2" width="800"/>
+
 ## Gerber
 
 You can find the Gerber file under the "Gerber" directory. Be sure to credit Len Bayles if sharing publicly.
