@@ -4,6 +4,8 @@ This video board for the Mark-8 minicomputer was designed by Len Bayles who, kin
 
 This board will work with any reproduction Mark-8 minicomputer that uses a backplane with a 3.96mm pitch.
 
+Please use the [User's Guide](M8-VIDEOUsersGuide.pdf) for assembly as that has the most up-to-date information.
+
 ## PCB
 
 PCBs are available for sale at [www.kalinchuk.com](https://www.kalinchuk.com/product-page/mark-8-minicomputer-video-board)
