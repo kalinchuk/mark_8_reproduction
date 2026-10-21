@@ -12,9 +12,11 @@ Refer to the [M8-INMUX+ User's Guide](M8-INMUXUsersGuide.pdf) for assembly instr
 
 ## PCB
 
-PCBs are available at [www.kalinchuk.com]()
+PCBs are available at [www.kalinchuk.com](https://www.kalinchuk.com/product-page/mark-8-minicomputer-reproduction-m8-inmux-pcb)
 
-IMAGE
+<img width="800" alt="M8-INMUX+ PCB" src="https://github.com/user-attachments/assets/f6e66d36-500e-4405-b8a9-9227a2448c0f" />
+
+Mark-8 Reproduction PCBs are also available [here](https://www.kalinchuk.com/product-page/mark-8-minicomputer-reproduction-pcb-set).
 
 ## Gerber
 
