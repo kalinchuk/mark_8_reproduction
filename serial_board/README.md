@@ -8,9 +8,9 @@ Refer to the [M8-2SIO User's Guide](M8-2SIOUsersGuide.pdf) for assembly instruct
 
 ## PCB
 
-PCBs are available at [www.kalinchuk.com]()
+PCBs are available at [www.kalinchuk.com](https://www.kalinchuk.com/product-page/mark-8-minicomputer-serial-board-pcb-m8-2sio)
 
-IMAGE
+<img width="800" alt="M8-2SIO PCB" src="https://github.com/user-attachments/assets/54c9e896-b050-498f-b6df-f276ed2d346d" />
 
 Mark-8 Reproduction PCBs are also available [here](https://www.kalinchuk.com/product-page/mark-8-minicomputer-reproduction-pcb-set).
 
